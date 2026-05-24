@@ -28,3 +28,8 @@ func main() {
 	result := binarySearch(arr, target)
 	fmt.Println(result)
 }
+
+// БД → B-Tree → O(log n)
+// файлові системи → дерево директорій → O(log n)
+// DNS → ієрархія доменів → O(log n)
+// memory management → багаторівневі таблиці → O(log n)
