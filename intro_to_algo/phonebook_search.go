@@ -54,7 +54,7 @@ func main() {
 		{"Zoe", "111-222-3333"},
 	}
 
-	name := "Sergio"
+	name := "Pietro"
 
 	phone, found := binarySearch(phonebook, name)
 
@@ -64,3 +64,4 @@ func main() {
 		fmt.Printf("%s not found\n", name)
 	}
 }
+
